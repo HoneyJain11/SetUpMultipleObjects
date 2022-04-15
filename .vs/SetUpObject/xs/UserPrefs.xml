@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{D2830858-E896-5497-0165-5D8559F9E0EC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LobbyManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/InventoryManager.cs" Line="93" Column="4" />
+      <File FileName="Assets/Scripts/ScriptableObjects/InventorySO.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ItemController.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/Enum/InventoryType.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LobbyManager.cs" Line="47" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SetUpObject" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9f334043-93a2-4373-89e5-ef27146712c4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
