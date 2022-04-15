@@ -58,10 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/ChangeFrame.cs" />
     <Compile Include="Assets/Scripts/Enum/InventoryType.cs" />
-    <Compile Include="Assets/Scripts/InventoryItemController.cs" />
     <Compile Include="Assets/Scripts/InventoryManager.cs" />
     <Compile Include="Assets/Scripts/ItemController.cs" />
-    <Compile Include="Assets/Scripts/ItemID.cs" />
+    <Compile Include="Assets/Scripts/Level2InventoryManager.cs" />
     <Compile Include="Assets/Scripts/LobbyManager.cs" />
     <Compile Include="Assets/Scripts/ScriptableObjects/InventorySO.cs" />
   </ItemGroup>
