@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Type of InventoryItem
 public enum InventoryType
 {
     bat,

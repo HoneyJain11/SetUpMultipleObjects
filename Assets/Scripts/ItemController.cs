@@ -3,20 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//To Drag the spwaned object with mouse movement or touch movement.
 public class ItemController : MonoBehaviour
 {
     float startPosX;
     float startPosY;
     bool isBeingHeld = false;
 
-    // Start is called before the first frame update
+    //Adding Collider to run time to the object, so collider will reset and size of collider will set accordingly to object size.
     void Start()
     {
         this.gameObject.AddComponent<CapsuleCollider2D>();
 
     }
 
-    // Update is called once per frame
+    //Dragging object with mousemovement.
     void Update()
     {
         if (isBeingHeld == true)
@@ -27,6 +28,7 @@ public class ItemController : MonoBehaviour
         }
         
     }
+    //Getting the position of object and enabling the movement of object
     private void OnMouseDown()
     {
         if(Input.GetMouseButtonDown(0))
@@ -41,28 +43,15 @@ public class ItemController : MonoBehaviour
            
         }
     }
-
+    // Disabling the movement of object when mousebutton up
     private void OnMouseUp()
     {
         isBeingHeld = false;
     }
-
+    // Detecting collision with object to disabling the movement of object.
     private void OnCollisionEnter2D(Collision2D collision)
     {
         isBeingHeld = false;
-    }
-
-
-    private void ClampObject()
-    {
-        transform.position = new Vector3(
-        //x
-        Mathf.Clamp(transform.position.x, -4f, 8f),
-        //y
-        Mathf.Clamp(transform.position.y, -4f, 5f),
-        //z
-        0f
-        );
     }
 
 
